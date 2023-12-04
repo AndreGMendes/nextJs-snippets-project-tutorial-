@@ -20,7 +20,7 @@ export default async function Home() {
           </div>
         </Link>
         <form action={deleteSnippetAction}>
-          <button className=" text-red-600 hover:font-extrabold z-10">
+          <button className=" text-white hover:font-extrabold border p-2 rounded bg-red-600 border-cyan-600 border-solid text-cyan-50 hover:font-extrabold">
             Delete
           </button>
         </form>
@@ -35,7 +35,7 @@ export default async function Home() {
           Snippets
         </h1>
         <Link
-          className="border p-2 rounded bg-blue-900 border-cyan-600 border-solid text-cyan-50 hover:font-extrabold"
+          className="border p-2 rounded bg-green-900 border-cyan-600 border-solid text-cyan-50 hover:font-extrabold"
           href={`/snippets/new`}
         >
           New item
