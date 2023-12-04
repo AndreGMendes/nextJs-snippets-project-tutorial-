@@ -1,11 +1,5 @@
-import React from 'react'
-
 const SnippetShowLoadingPage = () => {
-  return (
-    <div>
-      loading...
-    </div>
-  )
-}
+  return <div>loading...</div>;
+};
 
-export default SnippetShowLoadingPage
+export default SnippetShowLoadingPage;
