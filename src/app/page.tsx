@@ -14,7 +14,7 @@ export default async function Home() {
           className="flex grow justify-between items-center p-2 rounded border-cyan-600 border-solid bg-blue-300 border-2"
           href={`/snippets/${snippet.id}`}
         >
-          <div>{snippet.title}</div>
+          <div>{snippet.title} @ ID#{snippet.id}</div>
           <div className="flex gap-4">
             <div className=" text-blue-900 hover:font-extrabold">View</div>
           </div>
